@@ -1,0 +1,80 @@
+nav ul li{
+    display: inline;
+    margin-left: 10%;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-image: url("background.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    
+}
+background.jpg{
+    opacity: 50%;
+    position:relative;
+}
+.navigation{
+    width:80%;
+    height:50px;
+    margin-top: 0.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid;
+    border-color: black;
+    background-color: white;
+}
+.navigation:hover{
+    background-color:rgb(rgb(236, 234, 234), green, blue);
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 300,
+  'GRAD' -25,
+  'opsz' 40
+}
+.material-symbols-outlined{
+    left: 2%;
+}
+.photos{
+    width:300px;
+    height:350px;
+    position:relative;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+}
+.container-2{
+    display:flex;
+    justify-content: space-between;
+}
+
+.box{
+    width:350px;
+    height:400px;
+    margin-left: 50px;
+    background-color: none;
+    padding-left: 3%;
+    padding-top: 2%;
+    margin-top:20px;
+    position: relative;
+    z-index: 2;
+}
+.box:hover{
+    background-color:rgb(236, 234, 234);
+    z-index: 1;
+}
+#first{
+    right:4%;
+    bottom:15%;
+    position: absolute;
+    margin-left:46%;
+    z-index: 1;
+}
+#first:hover{
+    z-index: 100;
+}
